@@ -40,6 +40,9 @@ a {
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
+.centered-text {
+    text-align: center;
+}
 
 a:hover,
 a:focus {
