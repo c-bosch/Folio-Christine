@@ -39,7 +39,7 @@ max-width: 600px;
 }
 
 a {
-    color: #219ab3;
+    color: #077c94;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -49,6 +49,44 @@ a {
     max-width: 600px;
     margin-right: auto;
     margin-left: auto;
+}
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  font-family: montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+max-width: 600px;
+  text-align: center; 
+  margin-right: auto;
+  margin-left: auto;
+}
+.carousel-title {
+    font-family: montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+   text-align: center;
+   font-size: 40px; 
+   text-transform: uppercase;
+     font-weight: bold;
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: black;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btn {
+      outline: nonte;
+    background-color: rgba(255,255,255,.6);
 }
 
 a:hover,
