@@ -39,7 +39,7 @@ max-width: 600px;
 }
 
 a {
-    color: #077c94;
+    color: #9deaeb;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -86,14 +86,19 @@ max-width: 600px;
   left: 0;
 }
 .btn {
-      outline: nonte;
-    background-color: rgba(255,255,255,.6);
+      outline: black;
+    background-color: rgba(0,0,0,.6);
+}
+.btn:hover,
+.btn:focus {
+    background-color: #9deaeb;
+    color: black;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #04a1b4;
 }
 
 .light {
@@ -218,10 +223,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid white;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: white;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -231,7 +236,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #9deaeb;
     background: rgba(255,255,255,.1);
 }
 
@@ -334,17 +339,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
+    border: 1px solid white;
+    color: white;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid white;
     outline: 0;
     color: #000;
-    background-color: #219ab3;
+    background-color: white;
 }
 
 ul.banner-social-buttons {
